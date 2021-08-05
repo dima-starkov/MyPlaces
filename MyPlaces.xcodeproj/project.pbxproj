@@ -3,22 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A006E2726BC078E00ABEDC6 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A006E2626BC078E00ABEDC6 /* RealmManager.swift */; };
 		6A3CACCD26B90C5500948928 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CACCC26B90C5500948928 /* MainViewController.swift */; };
 		6A3CACCF26BAABA400948928 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CACCE26BAABA400948928 /* CustomTableViewCell.swift */; };
+		6A3CACD126BAB2EB00948928 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CACD026BAB2EB00948928 /* PlaceModel.swift */; };
+		6A3CACD326BAFCE700948928 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CACD226BAFCE700948928 /* NewPlaceViewController.swift */; };
 		6AFA8D7626B8550900D2ECBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA8D7526B8550900D2ECBE /* AppDelegate.swift */; };
 		6AFA8D7826B8550900D2ECBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFA8D7726B8550900D2ECBE /* SceneDelegate.swift */; };
 		6AFA8D7D26B8550900D2ECBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA8D7B26B8550900D2ECBE /* Main.storyboard */; };
 		6AFA8D7F26B8550B00D2ECBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA8D7E26B8550B00D2ECBE /* Assets.xcassets */; };
 		6AFA8D8226B8550B00D2ECBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFA8D8026B8550B00D2ECBE /* LaunchScreen.storyboard */; };
+		C3F1567DA7BD7A2C53BE7E24 /* Pods_MyPlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A0A87482C48FE1CF6D97AF /* Pods_MyPlaces.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22A0A87482C48FE1CF6D97AF /* Pods_MyPlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A006E2626BC078E00ABEDC6 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		6A3CACCC26B90C5500948928 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6A3CACCE26BAABA400948928 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		6A3CACD026BAB2EB00948928 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		6A3CACD226BAFCE700948928 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 		6AFA8D7226B8550900D2ECBE /* MyPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AFA8D7526B8550900D2ECBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AFA8D7726B8550900D2ECBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		6AFA8D7E26B8550B00D2ECBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AFA8D8126B8550B00D2ECBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AFA8D8326B8550B00D2ECBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD272254ED8F99445DD5377 /* Pods-MyPlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaces.release.xcconfig"; path = "Target Support Files/Pods-MyPlaces/Pods-MyPlaces.release.xcconfig"; sourceTree = "<group>"; };
+		FE83DC61B453A6A99A9D1295 /* Pods-MyPlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaces.debug.xcconfig"; path = "Target Support Files/Pods-MyPlaces/Pods-MyPlaces.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F1567DA7BD7A2C53BE7E24 /* Pods_MyPlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				6AFA8D7426B8550900D2ECBE /* MyPlaces */,
 				6AFA8D7326B8550900D2ECBE /* Products */,
+				6FA922349FF5DC32696D8A2C /* Pods */,
+				B45ABCEB021AA4E7560D20CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,13 +74,33 @@
 				6AFA8D7526B8550900D2ECBE /* AppDelegate.swift */,
 				6AFA8D7726B8550900D2ECBE /* SceneDelegate.swift */,
 				6AFA8D7B26B8550900D2ECBE /* Main.storyboard */,
+				6A3CACD226BAFCE700948928 /* NewPlaceViewController.swift */,
+				6A006E2626BC078E00ABEDC6 /* RealmManager.swift */,
 				6A3CACCC26B90C5500948928 /* MainViewController.swift */,
+				6A3CACD026BAB2EB00948928 /* PlaceModel.swift */,
 				6A3CACCE26BAABA400948928 /* CustomTableViewCell.swift */,
 				6AFA8D7E26B8550B00D2ECBE /* Assets.xcassets */,
 				6AFA8D8026B8550B00D2ECBE /* LaunchScreen.storyboard */,
 				6AFA8D8326B8550B00D2ECBE /* Info.plist */,
 			);
 			path = MyPlaces;
+			sourceTree = "<group>";
+		};
+		6FA922349FF5DC32696D8A2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE83DC61B453A6A99A9D1295 /* Pods-MyPlaces.debug.xcconfig */,
+				ADD272254ED8F99445DD5377 /* Pods-MyPlaces.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B45ABCEB021AA4E7560D20CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A0A87482C48FE1CF6D97AF /* Pods_MyPlaces.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AFA8D8626B8550B00D2ECBE /* Build configuration list for PBXNativeTarget "MyPlaces" */;
 			buildPhases = (
+				0BC831D3891E8962EB38DB23 /* [CP] Check Pods Manifest.lock */,
 				6AFA8D6E26B8550900D2ECBE /* Sources */,
 				6AFA8D6F26B8550900D2ECBE /* Frameworks */,
 				6AFA8D7026B8550900D2ECBE /* Resources */,
+				CEA8463F5081EFB97B501A77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,14 +170,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BC831D3891E8962EB38DB23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPlaces-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEA8463F5081EFB97B501A77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPlaces/Pods-MyPlaces-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPlaces/Pods-MyPlaces-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPlaces/Pods-MyPlaces-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6AFA8D6E26B8550900D2ECBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6A3CACCD26B90C5500948928 /* MainViewController.swift in Sources */,
+				6A3CACD326BAFCE700948928 /* NewPlaceViewController.swift in Sources */,
 				6AFA8D7626B8550900D2ECBE /* AppDelegate.swift in Sources */,
+				6A3CACD126BAB2EB00948928 /* PlaceModel.swift in Sources */,
 				6A3CACCF26BAABA400948928 /* CustomTableViewCell.swift in Sources */,
+				6A006E2726BC078E00ABEDC6 /* RealmManager.swift in Sources */,
 				6AFA8D7826B8550900D2ECBE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +367,7 @@
 		};
 		6AFA8D8726B8550B00D2ECBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE83DC61B453A6A99A9D1295 /* Pods-MyPlaces.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +387,7 @@
 		};
 		6AFA8D8826B8550B00D2ECBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD272254ED8F99445DD5377 /* Pods-MyPlaces.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
